@@ -1,0 +1,26 @@
+/* .p-menubar{
+    background-color: #252525;
+
+.p-menuitem-text{
+    color: white;
+}
+.p-menuitem:hover{
+    color: black;
+    background-color: #252525;
+}
+}
+.p-menuitem-link	{
+    background-color:#252525;
+} */
+
+
+.burgerBar{
+    display: none;
+}
+
+
+@media screen and (max-width:768px) {
+    .burgerBar{
+        display:flex;
+    }
+}

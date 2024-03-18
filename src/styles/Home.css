@@ -1,0 +1,120 @@
+
+.image{
+    height: 10vh;
+    display: flex;
+    
+    font-family: "Anta", sans-serif;
+    align-items: center;
+    font-size: 12px;
+    margin: 0 1rem;
+    /* border: solid brown; */
+    /* background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1f419759-ecd4-4693-9d22-0536130825fe/ddpaj11-f960cc38-6c87-4265-9eab-368851c04604.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFmNDE5NzU5LWVjZDQtNDY5My05ZDIyLTA1MzYxMzA4MjVmZVwvZGRwYWoxMS1mOTYwY2MzOC02Yzg3LTQyNjUtOWVhYi0zNjg4NTFjMDQ2MDQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0._f0ZOsh5vgKo7tjq-EoKKGel_VLLI4Dqr2Q4aqKod4Y'); */
+/* background-color: aliceblue; */
+    background-size: contain;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly
+}
+.burgerBar{
+    display: flex;
+    justify-content: flex-end; /* align items to the right */
+    width: 100%; /* take full width */
+}
+.main_home{
+    /* border: solid red;    */
+    background: url('../assets/background.jpeg');
+    filter: blur(3px);
+    height: 100vh;
+    filter: brightness(0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.home{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.welcome{
+    /* background-color: bisque; */
+    height: 90vh;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(15px 5px 5px black);
+    color: white;
+    height: 90%;
+    font-family: "Tenor Sans", sans-serif;
+font-size: 3rem;
+flex-direction: column;
+.slogan{
+    font-size: 1.2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+}
+.exploreButton:hover{
+    border: 1px solid black;
+    background-color: #252525;
+    color: white;
+}
+
+
+
+
+
+
+}
+
+.secondary{
+    /* border: solid brown; */
+    height: max-content;
+    
+}
+.quote{
+    display: flex;
+    /* border: solid red; */
+    height: 30dvh;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    font-size: 80px;
+    
+
+}
+.four{
+    display: flex;
+    /* border: solid red; */
+    justify-content: center;
+margin: 0 auto;
+    width: 90%;
+}
+@media screen and (max-width: 768px) {
+    .secondary {
+display: none;
+    }
+  
+    .quote {
+      font-size: 40px; /* Adjust font size for smaller screens */
+      text-align: center;
+    }
+    .text{
+        text-align: center;
+        font-size: 2rem;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+  }
